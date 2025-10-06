@@ -1,4 +1,4 @@
-print("Welcome to the Walmart Chatbot!")
+print("Welcome to the retail Chatbot!")
 name = input("What is your name? ")
 age = int(input("Hello " + name + ", how old are you in years? "))
 
@@ -10,7 +10,7 @@ else:
 
     if query.lower() == "y":
         print("Great! Here it is:")
-        print("Press 1 for how to find your nearest Walmart store.")
+        print("Press 1 for how to find your nearest retail store.")
         print("Press 2 to search for an item in the catalog.")
         print("Press 3 to report a damaged product in-store.")
         print("Press 4 for contact information for your selected store.")
